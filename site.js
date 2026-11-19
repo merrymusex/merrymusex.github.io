@@ -1,5 +1,5 @@
 (() => {
-  const items = [['about','About','index.html'],['research','Research','research.html'],['projects','Projects','projects.html'],['explore','Explore','explore.html'],['contact','Contact','contact.html']];
+  const items = [['about','About','index.html'],['research','Research','research.html'],['projects','Projects','https://github.com/merrymusex?tab=repositories'],['explore','Explore','explore.html'],['contact','Contact','contact.html']];
   const current = document.body.dataset.page;
   const header = document.getElementById('site-header');
   const inner = document.createElement('div'); inner.className = 'shell header-inner';
@@ -10,5 +10,5 @@
     nav.append(a);
   }
   inner.append(nav); header.append(inner);
-  document.getElementById('site-intro').innerHTML = "    <section class=\"hero\" aria-labelledby=\"hero-title\">\n      <div class=\"hero-art\" aria-hidden=\"true\"><img src=\"assets/hero.png\" alt=\"\"></div>\n      <div class=\"hero-content\">\n        <h1 id=\"hero-title\">Xiaoshuang Kong</h1>\n        <p class=\"hero-subtitle\">Artificial Intelligence \u00b7 Research</p>\n      </div>\n    </section>";
+  document.getElementById('site-intro').innerHTML = "    <section class=\"hero\" aria-labelledby=\"hero-title\">\n      <div class=\"hero-art\" aria-hidden=\"true\"><img src=\"assets/hero.png\" alt=\"\"></div>\n      <div class=\"hero-content\">\n        <h1 id=\"hero-title\">Merry Muse</h1>\n        <p class=\"hero-subtitle\">Artificial Intelligence \u00b7 Research</p>\n      </div>\n    </section>";
 })();

@@ -1,8 +1,8 @@
-Xiaoshuang Kong — independent pages
+Merry Muse — independent pages
 
 index.html     About (default homepage)
 research.html  Research
-projects.html  Projects
+Projects       Links to Merry Muse’s GitHub repositories
 explore.html   Explore: automatically lists HTML pages in mix/
 contact.html   Contact
 style.css      Shared visual style

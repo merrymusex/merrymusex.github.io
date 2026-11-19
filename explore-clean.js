@@ -52,11 +52,11 @@
     }
     // GitHub Pages does not expose directory listings. Discover committed HTML
     // files via the public repository tree; no token or manual link list needed.
-    if (location.hostname !== 'xskongai.github.io') {
+    if (location.hostname !== 'merrymusex.github.io') {
       if (manifest === null) throw new Error('Local index unavailable');
       return;
     }
-    const repo = 'https://api.github.com/repos/xskongai/xskongai.github.io';
+    const repo = 'https://api.github.com/repos/merrymusex/merrymusex.github.io';
     const metadata = await json(repo);
     const tree = await json(`${repo}/git/trees/${encodeURIComponent(metadata.default_branch)}?recursive=1`);
     if (!Array.isArray(tree.tree) || tree.truncated) throw new Error('Incomplete repository listing');
